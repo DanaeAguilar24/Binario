@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class Binario {
     public static void main(String[] args) {
-        Scanner scanner = new scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Ingresa el no");
-        int cant = scanner.nextInt();
-
+        int num = scanner.nextInt();
+        int i;
+        for(i=num;i==0;i++){}
     }
 }
