@@ -4,7 +4,14 @@ public class Binario {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingresa el no");
         int num = scanner.nextInt();
+        int [] arreglo = new int [8];
+        int n;
         int i;
-        for(i=num;i==0;i++){}
+        while(n==0){
+            n = num;
+            i = 0;
+            n=n/2;
+            arreglo[i]=n%2;
+        }
     }
 }
